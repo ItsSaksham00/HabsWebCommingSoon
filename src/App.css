@@ -1,0 +1,65 @@
+.UnderConstruction{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+}
+.lottieFile{
+  margin-bottom: 2%;
+  overflow: hidden;
+  height: 50%;
+  width: 80%;
+}
+.LottieAni{
+  height: 100%;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.03rem;
+  letter-spacing: -0.5px;
+  color: #333;
+}
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  float: right;
+  color: #333;
+  font-size: 1.1rem;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+a:hover{
+  scale: 1.1;
+}
+a::before{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 0;bottom: 0;
+  background-color: tomato;
+  border-radius: 10px;
+  right: 0;
+  transition: all 0.4s ease-in-out;
+}
+a:hover::before{
+  width: 72%;
+}
+footer{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  height: fit-content;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:450px) {
+    h2{
+      font-size: 0.9rem;
+    }
+}
