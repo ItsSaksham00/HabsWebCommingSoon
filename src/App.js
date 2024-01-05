@@ -25,7 +25,7 @@ const App = () => {
       </div>
 
       <footer>
-        <p>All rights reserved © Hamro Awaj Baal Sanjal</p>
+        <p>All rights reserved © Hamro Awaj Baal Sanjal & Saksham</p>
       </footer>
 
     </>
